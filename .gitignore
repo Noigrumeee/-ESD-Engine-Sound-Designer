@@ -1,0 +1,15 @@
+build/
+out/
+.vs/
+*.user
+build_log.txt
+
+# third-party sources: fetched by setup_deps.bat (exact versions)
+external/JUCE/
+external/Catch2/
+external/json/
+external/sqlite/
+
+# large generated audio (render them with esd_render / the app)
+demo_renders/
+demo_exports/
